@@ -1,0 +1,105 @@
+.box{
+    width: 1000px;
+    height: 600px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: ;
+    align-items: ;
+    flex-direction: column;
+    align-items: flex-end;
+ }
+
+.child1{
+    background-color: rgb(1, 255, 1);
+    width: 150px;
+    height: 160px; 
+    border: 1px solid rgb(123, 255, 0);
+}
+.child2{
+    background-color: rgb(102, 104, 219);
+    width: 150px;
+    height: 150px; 
+    border: 1px solid rgb(7, 218, 255);
+    box-shadow:
+    
+      }
+      .box1{
+        width: 400px;
+        height: 600px;
+        border: 5px solid rgba(206, 10, 10, 0);
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: ;
+        align-items: flex-end;
+     }
+     .child1 {
+      width: 223px;
+      height: 300px;
+      background-color: rgb(64, 214, 207);
+      transition: background-color 0.5s; /* Добавляем плавный переход для анимации */
+    }
+    
+    .child1:hover {
+      background-color: rgb(85, 211, 73);
+    }
+    .child2 {
+      width: 218px;
+      height: 210px;
+      background-color: rgb(61, 150, 177);
+      transition: box-shadow 0.3s; /* Добавляем плавную анимацию при изменении свойства box-shadow */
+    }
+    
+    .child2:hover {
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5); /* Добавляем тень при наведении курсора */
+    }
+    body {
+      background-image: url(https://mentor.su/wp-content/uploads/2022/11/1615816388_56-p-fon-khaitek-70.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .photo-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .photo-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0);
+      transition: background-color 0.3s ease;
+    }
+    
+    .photo-container:hover::before {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .box3{
+      width: 502px;
+      height: 500px;
+      border: 5px solid rgba(255, 255, 255, 0);
+      display: flex;
+      justify-content: ;
+      align-items: center;
+      flex-direction: ;
+      align-items: ;
+   }
+    .child4{
+      background-color: rgb(220, 231, 69);
+      width: 218px;
+      height: 210px; 
+      border: 1px solid rgb(238, 255, 7);
+      box-shadow:
+    }
+    .child4 {
+      width: 218px;
+      height: 210px;
+      background-color: rgb(255, 251, 0);
+      transition: transform 0.3s;
+    }
+    
+    .child4:hover {
+      transform: scale(1.2);
+    }
